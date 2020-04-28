@@ -119,15 +119,15 @@ public class MainActivity extends AppCompatActivity {
         input.setText("");
     }
     public void id1(View v){
-        onButtonClick(btnid1, input, "91111111");
+        onButtonClick(btnid1, input, "912345678");
         makePhoneCall();
     }
     public void id2(View v){
-        onButtonClick(btnid2, input, "92222222");
+        onButtonClick(btnid2, input, "923456789");
         makePhoneCall();
     }
     public void id3(View v){
-        onButtonClick(btnid1, input, "93333333");
+        onButtonClick(btnid1, input, "934567890");
         makePhoneCall();
     }
 

@@ -31,7 +31,7 @@
             android:layout_margin="4sp"
             android:layout_weight="1"
             android:background="#8C9EFF"
-            android:text="Anna"
+            android:text="David"
             android:onClick="id1"
             android:textColor="@color/white"
             android:textSize="20sp" />
