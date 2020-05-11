@@ -31,8 +31,8 @@
             android:layout_margin="4sp"
             android:layout_weight="1"
             android:background="#8C9EFF"
-            android:text="David"
             android:onClick="id1"
+            android:text="Nameid1"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -43,7 +43,7 @@
             android:layout_margin="4sp"
             android:layout_weight="1"
             android:background="#8C9EFF"
-            android:text="John"
+            android:text="Nameid2"
             android:onClick="id2"
             android:textColor="@color/white"
             android:textSize="20sp" />
@@ -55,7 +55,7 @@
             android:layout_margin="4sp"
             android:layout_weight="1"
             android:background="#8C9EFF"
-            android:text="Mary"
+            android:text="Nameid3"
             android:textColor="@color/white"
             android:onClick="id3"
             android:textSize="20sp" />

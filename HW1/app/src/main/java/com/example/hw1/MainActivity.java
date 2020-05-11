@@ -1,6 +1,7 @@
 package com.example.hw1;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -38,9 +39,14 @@ public class MainActivity extends AppCompatActivity {
     Button btnid2 ;
     Button btnid3 ;
 
-
     EditText input;
 
+    String name1;
+    String name2;
+    String name3;
+    String number1;
+    String number2;
+    String number3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +70,6 @@ public class MainActivity extends AppCompatActivity {
         btnid1 = findViewById(R.id.buttonid1);
         btnid2 = findViewById(R.id.buttonid2);
         btnid3 = findViewById(R.id.buttonid3);
-
-
         input = findViewById(R.id.editText);
 
         btnCall.setOnClickListener(new View.OnClickListener() {
@@ -74,10 +78,28 @@ public class MainActivity extends AppCompatActivity {
                 makePhoneCall();
             }
         });
-
+        btnid1.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                openActivity2();
+                return false;
+            }
+        });
+        btnid2.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                openActivity3();
+                return false;
+            }
+        });
+        btnid3.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                openActivity4();
+                return false;
+            }
+        });
     }
-
-
 
     public void one(View v) {
         onButtonClick(btnOne, input,"1");
@@ -119,17 +141,19 @@ public class MainActivity extends AppCompatActivity {
         input.setText("");
     }
     public void id1(View v){
-        onButtonClick(btnid1, input, "912345678");
+        onButtonClick(btnid1, input, "111");
         makePhoneCall();
     }
     public void id2(View v){
-        onButtonClick(btnid2, input, "923456789");
+        onButtonClick(btnid2, input, "122");
         makePhoneCall();
     }
     public void id3(View v){
-        onButtonClick(btnid1, input, "934567890");
+        onButtonClick(btnid1, input, "133");
         makePhoneCall();
     }
+
+
 
 
     private void makePhoneCall () {
@@ -144,7 +168,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == REQUEST_CALL) {
@@ -159,5 +182,20 @@ public class MainActivity extends AppCompatActivity {
     public void onButtonClick(Button button, EditText inputNumber, String number){
         String cache= input.getText().toString();
         inputNumber.setText(cache + number);
+    }
+
+
+    public void openActivity2() {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivityForResult(intent,1);
+
+    }
+    public void openActivity3() {
+        Intent intent = new Intent(this, Main3Activity.class);
+        startActivity(intent);
+    }
+    public void openActivity4() {
+        Intent intent = new Intent(this, Main4Activity.class);
+        startActivity(intent);
     }
 }
