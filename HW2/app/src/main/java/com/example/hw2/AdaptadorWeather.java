@@ -1,8 +1,10 @@
 package com.example.hw2;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
@@ -35,13 +37,16 @@ public class AdaptadorWeather extends RecyclerView.Adapter<AdaptadorWeather.View
     }
 
     public class ViewHolderWeather extends RecyclerView.ViewHolder {
+
         TextView city;
         ImageView foto;
+        ImageButton arrow;
+
         public ViewHolderWeather(View itemView) {
             super(itemView);
             city= (TextView) itemView.findViewById(R.id.idName);
             foto= (ImageView) itemView.findViewById(R.id.idImage);
+            arrow = (ImageButton) itemView.findViewById(R.id.goToFrag);
         }
     }
-
 }

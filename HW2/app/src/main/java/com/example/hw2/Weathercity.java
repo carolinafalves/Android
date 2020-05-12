@@ -3,6 +3,7 @@ package com.example.hw2;
 public class Weathercity {
     private String city;
     private int foto;
+
     public Weathercity() {
     }
     public Weathercity(String name, int foto) {
