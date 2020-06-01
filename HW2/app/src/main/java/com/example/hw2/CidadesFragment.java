@@ -36,18 +36,16 @@ public class CidadesFragment extends Fragment {
         recyclerweather = vista.findViewById(R.id.listRecyclerView);
         recyclerweather.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        arrow=vista.findViewById(R.id.goToFrag);
-        arrow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                WeatherFragment weatherFragment = new WeatherFragment();
-                FragmentTransaction transaction=getFragmentManager().beginTransaction();
-                transaction.replace(R.id.frame_container, weatherFragment);
-                transaction.commit();
+        //arrow=vista.findViewById(R.id.goToFrag);
+        //arrow.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+            ////  WeatherFragment weatherFragment = new WeatherFragment();
+                //FragmentTransaction transaction=getFragmentManager().beginTransaction();
+                //transaction.replace(R.id.frame_container, weatherFragment);
+                //transaction.commit();
 
-            }
-        });
-
+           // }
+        //});
 
         linearcitys();
 

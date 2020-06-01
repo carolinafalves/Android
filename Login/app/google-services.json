@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "552167693112",
+    "firebase_url": "https://loginexample-54409.firebaseio.com",
+    "project_id": "loginexample-54409",
+    "storage_bucket": "loginexample-54409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552167693112:android:98a80932febf8c05447fcd",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQh8nPkBVbf7DX0R1YChzXxIOAn2bscE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552167693112:android:dade6dfd5bf514b7447fcd",
+        "android_client_info": {
+          "package_name": "com.example.login1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQh8nPkBVbf7DX0R1YChzXxIOAn2bscE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552167693112:android:27921cb3ae2fd16d447fcd",
+        "android_client_info": {
+          "package_name": "com.example.smartgarden1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQh8nPkBVbf7DX0R1YChzXxIOAn2bscE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552167693112-bst0mjkrogcim2b8tifau8i1bt6fj9mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

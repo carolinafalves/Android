@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartGarden</string>
+    <string name="title_garden">Garden</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_map">Map</string>
+    <string name="title_album">Album</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_fragment">Map</string>
+
+</resources>
